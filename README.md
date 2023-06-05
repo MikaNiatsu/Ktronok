@@ -2,6 +2,11 @@
 ## Example of a Ktronik-like Branch using Spring Boot
 
 This is an example project showcasing a Ktronik-like branch using the Spring Boot framework. It demonstrates the implementation of various features and functionalities similar to Ktronik's system.
+## Tutorial
+
+To see a video tutorial on how to use the Ktronik-like branch application, you can watch the following video:
+
+[![Tutorial Video](https://img.youtube.com/vi/Zp2ZwrSVU2Y/0.jpg)](https://youtu.be/Zp2ZwrSVU2Y)
 
 ## Features
 
