@@ -21,6 +21,20 @@ public class Producto {
 	@JsonBackReference
 	private Venta venta;
 
+	private boolean vendido;
+
+	public boolean isVendido() {
+		return vendido;
+	}
+
+	public boolean getVendido() {
+		return vendido;
+	}
+
+	public void setVendido(boolean vendido) {
+		this.vendido = vendido;
+	}
+
 	public Integer getId() {
 		return id;
 	}

@@ -1,0 +1,64 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.centered-content {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+.navbar-item.active {
+	background-color: #ccb36e;
+}
+
+.section {
+	display: none;
+}
+
+#inicio {
+	display: block;
+}
+
+#message-container {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+#message-container2 {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+#message-container3 {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+.box {
+	min-width: 1350px;
+	margin: 0 auto;
+}
+
+.centered-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.centered-button button {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.card-content{
+	color: black;
+}
+.title is-4{
+	color: black;
+}
