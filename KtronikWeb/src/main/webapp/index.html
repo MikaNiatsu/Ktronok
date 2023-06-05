@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/style.css">
+<title>Surcursal</title>
+</head>
+
+<body>
+	<section class="hero is-primary is-fullheight">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title">Bienvenido a la administracion de Ktrono</h1>
+				<h2 class="subtitle">Por favor, selecciona una sucursal</h2>
+				<div class="columns is-centered">
+					<div class="column is-one-quarter">
+						<div class="field">
+							<div class="control">
+								<div class="select is-primary">
+									<select id="menu" style="display: none;">
+									</select> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<progress id="loading-bar" class="progress is-dark" value="0"
+					max="100">0%</progress>
+				<div class="centered-content">
+					<button id="ingresar-btn" class="button is-primary is-rounded"
+						style="display: none;">Ingresar</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="scripts/scriptPrincipal.js"></script>
+</body>
+
+</html>

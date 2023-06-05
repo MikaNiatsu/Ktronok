@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Error</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<h1 class="title is-1 notification is-danger">404</h1>
+	<p id="error-message" class="notification is-danger"></p>
+	<script>
+		const urlParams = new URLSearchParams(window.location.search);
+		const errorMessage = urlParams.get('message');
+
+		const errorParagraph = document.getElementById('error-message');
+		errorParagraph.textContent = errorMessage;
+	</script>
+	<div class="centered-content">
+		<a href="index.html" class="button is-danger ">Volver a intentar</a>
+	</div>
+</body>
+</html>

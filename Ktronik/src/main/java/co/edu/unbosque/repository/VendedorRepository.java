@@ -13,4 +13,7 @@ public interface VendedorRepository extends CrudRepository<Vendedor, Integer> {
 
 	@Override
 	public List<Vendedor> findAll();
+
+	public List<Vendedor> findAllByTiendaId(Integer id);
+
 }

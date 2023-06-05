@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/style.css">
+<title>Vacio</title>
+</head>
+
+<body class="hero is-warning is-fullheight">
+	<nav class="navbar is-warning" role="navigation"
+		aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="surcusal.html">Inicio</a>
+		</div>
+
+		<div id="navbar" class="navbar-end">
+			<div class="navbar-end">
+				<a class="navbar-item" href="#vendedor">Vendedor</a> <a
+					class="navbar-item" href="#inventario">Inventario</a> <a
+					class="navbar-item" href="#despido">Despedir</a> <a
+					class="navbar-item" href="index.html">Seleccionar Sucursal</a>
+			</div>
+		</div>
+	</nav>
+	<div class="hero-body">
+		<div class="container has-text-justifed">
+			<section id="vendedor" class="section">
+				<div class="container block">
+					<div class="columns is-centered">
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content text-center">
+									<p class="title is-4">Agregar Vendedor</p>
+								</div>
+								<button id="agregar-vendedor-btn"
+									class="button is-success is-fullwidth">Agregar</button>
+							</div>
+						</div>
+
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Actualizar Vendedor</p>
+								</div>
+								<button id="actualizar-vendedor-btn"
+									class="button is-link is-fullwidth">Actualizar</button>
+							</div>
+						</div>
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Añadir ventas</p>
+								</div>
+								<button id="anadir-ventas-btn"
+									class="button is-info is-fullwidth">Venta</button>
+							</div>
+						</div>
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Listar Vendedores</p>
+								</div>
+								<button id="listar-vendedores-btn"
+									class="button is-dark is-fullwidth">Listar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="centered-content">
+						<div id="form-container"></div>
+					</div>
+				</div>
+				<div class="block">
+					<div id="message-container"></div>
+				</div>
+			</section>
+
+
+			<section id="inventario" class="section">
+				<div class="container block">
+					<div class="columns is-centered">
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content text-center">
+									<p class="title is-4">Agregar Producto</p>
+								</div>
+								<button id="agregar-producto-btn"
+									class="button is-success is-fullwidth">Agregar</button>
+							</div>
+						</div>
+
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Eliminar Producto</p>
+								</div>
+								<button id="eliminar-producto-btn"
+									class="button is-danger is-fullwidth">Eliminar</button>
+							</div>
+						</div>
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Listar Ventas Global</p>
+								</div>
+								<button id="listar-ventas-btn"
+									class="button is-info is-fullwidth">Listar</button>
+							</div>
+						</div>
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-5">Listar Productos Global</p>
+								</div>
+								<button id="listar-productos-btn"
+									class="button is-dark is-fullwidth">Listar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="centered-content">
+						<div id="form-container2"></div>
+					</div>
+				</div>
+				<div class="block">
+					<div id="message-container2"></div>
+				</div>
+			</section>
+
+
+			<section id="despido" class="section">
+				<div class="container block">
+					<div class="columns is-centered">
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content text-center">
+									<p class="title is-4">Despedir por Ineficiencia</p>
+								</div>
+								<button id="despedir-ineficiencia-btn"
+									class="button is-warning is-fullwidth">Despedir</button>
+							</div>
+						</div>
+
+						<div class="column is-one-quarter">
+							<div class="card">
+								<div class="card-content">
+									<p class="title is-4">Despedir Vendedor Específico</p>
+								</div>
+								<button id="despedir-vendedor-btn"
+									class="button is-danger is-fullwidth">Despedir</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="centered-content">
+						<div id="form-container3"></div>
+					</div>
+				</div>
+				<div class="block">
+					<div id="message-container3"></div>
+				</div>
+			</section>
+
+
+			<section id="inicio" class="section">
+				<div class="container">
+					<div id="welcome-card" class="card">
+						<div class="card-content">
+							<h2 class="title is-4" id="surcursal"></h2>
+							<p id="ubicacion"></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="scripts/scriptPrincipal.js"></script>
+</body>
+
+
+</html>
